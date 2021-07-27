@@ -4,18 +4,18 @@
 
 # Site
 # 根据实际情况修改
-title: 标题
-subtitle: '副标题'
-description: '描述'
-keywords: 
-author: 名字
+title: 神烦狗のblog
+subtitle: 'SFUNDOG'
+description: '暂无描述'
+keywords: SFUNDOG
+author: 神烦狗
 language: zh-CN
 timezone: ''
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://example.com/child' and root as '/child/'
 # 改成你的网站链接
-url: http://example.com
+url: https://im-shenfandog.github.io/
 root: /
 permalink: blog/:title/
 permalink_defaults:
@@ -106,7 +106,7 @@ theme: butterfly
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: git
-  repo: '这里填入你的仓库git地址'
+  repo: git@github.com:im-shenfandog/im-shenfandog.github.io.git
   branch: master
   message: upload
 
